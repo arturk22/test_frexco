@@ -9,7 +9,6 @@ import Home from './pages/Home';
 class App extends Component{
 
   render(){
-
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />}/>

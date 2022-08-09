@@ -15,6 +15,7 @@ class App extends Component{
       <Route path='/details/:id' element={<Details />}/>
     </Routes>
   </BrowserRouter>
+  
   }
 }
 export default App;

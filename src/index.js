@@ -8,12 +8,14 @@ import Home from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/details/:id' element={<Details />}/>
     </Routes>
   </BrowserRouter>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

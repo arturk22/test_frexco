@@ -6,8 +6,6 @@ import './reset.css';
 import Details from './pages/Details';
 import Home from './pages/Home';
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

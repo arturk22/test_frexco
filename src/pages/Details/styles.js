@@ -19,6 +19,7 @@ export const Container = styled.div`
     img{
         width: 500px;
         border-radius: 2.4rem;
+
     }
 
 
@@ -57,6 +58,35 @@ export const Container = styled.div`
 
     .family{
         opacity: 0.5;
+    }
+
+
+    @media screen and (max-width: 1024px) {
+        .fruit{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img{
+            width: 200px;
+            border-radius: 2.4rem;
+        }
+
+
+        .details{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 0rem;
+            max-width: 50%;
+        }
+
+        h1{
+            font-size: 40px;
+            margin: 3rem 0;
+        }
+
     }
 
 `

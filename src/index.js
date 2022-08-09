@@ -5,6 +5,7 @@ import './index.css';
 import './reset.css';
 import Details from './pages/Details';
 import Home from './pages/Home';
+import Carrinho from './pages/Carrinho'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

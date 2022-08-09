@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     h1{
         text-aling: center;
-        margin: 4rem 0;
+        margin-left: 1rem;
         font-size: 60px;
         font-weight: bold;
         font-family: 'Dancing Script', cursive;

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Container } from "./styles";
 import { Link } from "react-router-dom";
 import Cabecalho from "../../components/Cabecalho";
+import SideBar from "../../components/SideBar";
 
 
 function Details(){
@@ -36,7 +37,9 @@ function Details(){
 
     return(
 
-        <><Cabecalho />
+        <>
+        <SideBar/>
+        <Cabecalho />
         <Container>
             <div className="fruit">
                 <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-frutas-sao-alimentos-importantes-para-nossa-saude-alem-serem-muito-saborosas-5bdaec2def6bb.jpg" alt={fruit.name} />

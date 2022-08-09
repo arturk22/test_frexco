@@ -4,8 +4,10 @@ export const Container = styled.div`
     h1{
         text-aling: center;
         margin: 4rem 0;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
     }
-
 `
 
 
@@ -25,12 +27,23 @@ export const Fruit = styled.li`
     img{
         width: 180px;
         border-radius: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    button{
+        color: black;
+        background-color: antiquewhite;
+        transition: all 0.3s;
+    }
+
+    button:hover{
+        background-color: #6de43f;
     }
 
     span{
         font-weight: bold;
         font-size: 120%;
+        text-align: center;
     }
 
     a{
